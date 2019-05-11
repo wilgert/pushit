@@ -1,0 +1,2 @@
+#!/bin/bash
+nohup afplay ./pushit8s.m4a &>/dev/null &
