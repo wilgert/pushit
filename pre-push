@@ -1,2 +1,4 @@
 #!/bin/bash
-nohup afplay ./pushit8s.m4a &>/dev/null &
+dir="audio"
+file=$(ls ${dir} |sort -R |tail -1)
+nohup afplay ${dir}/${file} &>/dev/null &
